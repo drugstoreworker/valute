@@ -65,7 +65,7 @@ body{
     text-align: center;
 }
 .kub{
-    height: 50vh;
+    height: 30vh;
     margin-top: 30px;
     border-radius: 25px;
     padding: 10px;
@@ -77,6 +77,13 @@ body{
     background-color: white;
     margin-top: 20px;
 
+
+}
+button{
+    border-radius: 10px;
+    font-family: 'Comfortaa' , cursive;
+    font-size: large;
+    border: none;
 
 }
 .first .second .third .fours{
@@ -100,6 +107,7 @@ body{
 #C {
     width: 22%;
     height: 8vh;
+    background-color: pink;
 }
 #delete {
     width: 22%;
@@ -107,5 +115,42 @@ body{
 }
 #delete img{
     width: 70%;
+    background: rgb(0, 166, 255);
 
+}
+.course img{
+    width: 50px;
+    border-radius: 10px;
+}
+#cor{
+    width: 22%;
+    height: 16vh;
+    margin-bottom: 8vh;
+    background-color: aquamarine;
+   
+}
+#cor img{
+    width: 70%;
+
+}
+#zero{
+    width: 44%;
+    height: 8vh;
+}
+.course img{
+    width: 50px;
+    /* height: 50px; */
+    border-radius: 20px;
+}
+#fromImg, #toImg{
+    width: 20%;
+}
+#from, #to{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#fromSelect, #toSelect{
+    margin: 20px 0;
 }
